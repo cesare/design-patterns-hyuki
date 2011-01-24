@@ -1,0 +1,13 @@
+#
+#
+#
+*~
+*.bak
+*.orig
+*.swp
+
+#
+# directories
+#
+.settings
+build
