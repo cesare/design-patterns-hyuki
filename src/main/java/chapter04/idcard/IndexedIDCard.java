@@ -14,11 +14,11 @@ public class IndexedIDCard extends IDCard {
     }
     
     public String toString() {
-        return this.getOwner() + "‚ÌƒJ[ƒh/#" + index;
+        return this.getOwner() + "ã®ã‚«ãƒ¼ãƒ‰/#" + index;
     }
 
     @Override
     public void use() {
-        System.out.println(this + "‚ÌƒJ[ƒh‚ğg‚¢‚Ü‚·B");
+        System.out.println(this + "ã®ã‚«ãƒ¼ãƒ‰ã‚’ä½¿ã„ã¾ã™ã€‚");
     }
 }

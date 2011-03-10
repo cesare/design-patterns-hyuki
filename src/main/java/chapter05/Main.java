@@ -8,10 +8,10 @@ public class Main {
         Singleton obj2 = Singleton.getInstance();
         
         if (obj1 == obj2) {
-            System.out.println("obj1 ‚Æ obj2 ‚Í“¯‚¶ƒCƒ“ƒXƒ^ƒ“ƒX‚Å‚·B");
+            System.out.println("obj1 ã¨ obj2 ã¯åŒã˜ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã§ã™ã€‚");
         }
         else {
-            System.out.println("obj1 ‚Æ obj2 ‚Í“¯‚¶ƒCƒ“ƒXƒ^ƒ“ƒX‚Å‚Í‚ ‚è‚Ü‚¹‚ñB");
+            System.out.println("obj1 ã¨ obj2 ã¯åŒã˜ã‚¤ãƒ³ã‚¹ã‚¿ãƒ³ã‚¹ã§ã¯ã‚ã‚Šã¾ã›ã‚“ã€‚");
         }
         
         System.out.println("End.");

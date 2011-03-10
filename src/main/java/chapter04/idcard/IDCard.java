@@ -6,13 +6,13 @@ public class IDCard extends Product {
     private String owner;
     
     IDCard(String owner) {
-        System.out.println(owner + "�̃J�[�h�����܂��B");
+        System.out.println(owner + "のカードを作ります。");
         this.owner = owner;
     }
     
     @Override
     public void use() {
-        System.out.println(owner + "�̃J�[�h���g���܂��B");
+        System.out.println(owner + "のカードを使います。");
     }
     
     public String getOwner() {

@@ -9,16 +9,16 @@ public class Director {
     
     public void construct() {
         builder.makeTitle("Greeting");
-        builder.makeString("’©‚©‚ç’‹‚É‚©‚¯‚Ä");
+        builder.makeString("æœã‹ã‚‰æ˜¼ã«ã‹ã‘ã¦");
         builder.makeItems(new String[] {
-                "‚¨‚Í‚æ‚¤‚²‚´‚¢‚Ü‚·B",
-                "‚±‚ñ‚É‚¿‚ÍB",
+                "ãŠã¯ã‚ˆã†ã”ã–ã„ã¾ã™ã€‚",
+                "ã“ã‚“ã«ã¡ã¯ã€‚",
         });
-        builder.makeString("–é‚É");
+        builder.makeString("å¤œã«");
         builder.makeItems(new String[] {
-                "‚±‚ñ‚Î‚ñ‚ÍB",
-                "‚¨‚â‚·‚İ‚È‚³‚¢B",
-                "‚³‚æ‚¤‚È‚çB",
+                "ã“ã‚“ã°ã‚“ã¯ã€‚",
+                "ãŠã‚„ã™ã¿ãªã•ã„ã€‚",
+                "ã•ã‚ˆã†ãªã‚‰ã€‚",
         });
         builder.close();
     }

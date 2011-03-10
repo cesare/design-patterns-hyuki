@@ -19,7 +19,7 @@ public class Main {
             Director director = new Director(htmlBuilder);
             director.construct();
             String filename = htmlBuilder.getResult();
-            System.out.println(filename + "‚ªì¬‚³‚ê‚Ü‚µ‚½B");
+            System.out.println(filename + "ãŒä½œæˆã•ã‚Œã¾ã—ãŸã€‚");
         }
         else {
             usage();
@@ -27,7 +27,7 @@ public class Main {
     }
     
     public static void usage() {
-        System.out.println("Usage: java Main plain  ƒvƒŒ[ƒ“ƒeƒLƒXƒg‚Å•¶‘ì¬");
-        System.out.println("       java Main html   HTML‚Å•¶‘ì¬");
+        System.out.println("Usage: java Main plain  ãƒ—ãƒ¬ãƒ¼ãƒ³ãƒ†ã‚­ã‚¹ãƒˆã§æ–‡æ›¸ä½œæˆ");
+        System.out.println("       java Main html   HTMLã§æ–‡æ›¸ä½œæˆ");
     }
 }

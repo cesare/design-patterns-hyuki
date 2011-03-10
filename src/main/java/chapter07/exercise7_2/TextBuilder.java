@@ -6,20 +6,20 @@ public class TextBuilder extends Builder {
     @Override
     public void doMakeTitle(String title) {
         buffer.append("========================================\n");
-        buffer.append("Åw" + title + "Åx\n");
+        buffer.append("„Äé" + title + "„Äè\n");
         buffer.append("\n");
     }
 
     @Override
     public void doMakeString(String str) {
-        buffer.append('Å°' + str + "\n");
+        buffer.append('‚ñ†' + str + "\n");
         buffer.append("\n");
     }
 
     @Override
     public void doMakeItems(String[] items) {
         for (String item : items) {
-            buffer.append(" ÅE" + item + "\n");
+            buffer.append(" „Éª" + item + "\n");
         }
         buffer.append("\n");
     }

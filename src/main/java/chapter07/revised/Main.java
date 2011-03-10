@@ -32,7 +32,7 @@ public class Main {
         System.out.println(result);
     }
     public static void usage() {
-        System.out.println("Usage: java Main plain  �v���[���e�L�X�g�ŕ����쐬");
-        System.out.println("       java Main html   HTML�ŕ����쐬");
+        System.out.println("Usage: java Main plain  プレーンテキストで文書作成");
+        System.out.println("       java Main html   HTMLで文書作成");
     }
 }

@@ -8,9 +8,9 @@ public class Main {
 
     public static void main(String[] args) {
         Factory factory = new IDCardFactory();
-        Product card1 = factory.create("Œ‹é_");
-        Product card2 = factory.create("‚Æ‚Ş‚ç");
-        Product card3 = factory.create("²“¡‰Ôq");
+        Product card1 = factory.create("çµåŸæµ©");
+        Product card2 = factory.create("ã¨ã‚€ã‚‰");
+        Product card3 = factory.create("ä½è—¤èŠ±å­");
         card1.use();
         card2.use();
         card3.use();
